@@ -8,8 +8,9 @@ export default new Router( {
     mode: 'history',
     routes : [
         {path: '/', component: GymHome},
-        {path: '/', component: Layout}
-
+        {path: '/', component: Layout},
+        {path: '/login', component: Login},
+        {path: '/join', component: Join},
     ]
 })
 
